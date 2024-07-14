@@ -1,0 +1,98 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, hsla(320, 52%, 26%, 0.981) 0%, #fad0c4 99%, #fad0c4 100%);
+    color: #000000;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#player-registration, #player-selection {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: #fff;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#player-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#player-list li {
+    padding: 5px 0;
+}
+
+#player-selection select {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+}
+
+#game-container {
+    display: none;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    font-size: 2em;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s;
+}
+
+.cell:hover {
+    background: #f0f0f0;
+}
+
+#status {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}

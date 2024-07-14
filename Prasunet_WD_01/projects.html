@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <style>
+        .project-card {
+            background-color: rgb(23, 22, 22);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            font-size: 1.6rem; /* Adjust font size here */
+        }
+
+        .project-card h2 {
+            font-size: 2rem; /* Increase heading font size */
+            color: #fff; /* Ensure text color contrasts with background */
+        }
+
+        .project-card p {
+            margin: 0;
+            font-size: 1.4rem; /* Adjust paragraph font size */
+            color: #ccc; /* Lighter text color */
+        }
+
+        .project-card ul {
+            list-style-type: disc; /* List style */
+            margin-top: 10px;
+            color: #ccc; /* Lighter text color for list items */
+        }
+
+        .project-card li {
+            font-size: 1.4rem; /* Adjust list item font size */
+            margin-left: 20px; /* Indent list items */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">SUMANTH EDAMAKANTI</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects">
+            <h1>My Projects</h1>
+            <div class="project-card">
+                <h2>Student Counselling Management System</h2>
+                <p><strong>Java fullstack web development | July 2023 - November 2023</strong></p>
+                <ul>
+                    <li>Team project for 2023 Hackathon</li>
+                    <li>Significant role: Team Lead</li>
+                    <li>Developed using Spring Boot for the backend and HTML/CSS for the frontend.</li>
+                </ul>
+            </div>
+            <div class="project-card">
+                <h2>Employability Consultancy System</h2>
+                <p><strong>Python full stack development | January 2023 - May 2023</strong></p>
+                <ul>
+                    <li>Led a team in developing a Python Django-based Employability Consultancy System website.</li>
+                    <li>Significant role: Designed and implemented efficient MySQL database schema</li>
+                    <li>Created a full-stack web application for job opportunities and company information.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
